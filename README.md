@@ -10,6 +10,15 @@
 ╰──────────────────────────────────────────────────────────────╯
 ```
 
+## Install globally
+
+Install CIphera system-wide:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/pyinstance/CIpheraLinux/main/install.sh | bash
+```
+
+
 CIphera is a keyboard-first Linux password manager built around a simple boxed terminal interface rather than a desktop GUI.
 
 ## Highlights
