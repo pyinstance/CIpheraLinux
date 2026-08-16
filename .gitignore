@@ -1,0 +1,17 @@
+/target/
+*.tmp
+*.swp
+*.swo
+.DS_Store
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+
+# Never commit local secrets / vault material
+*.ciphera
+*.key
+*.key.backup-*
+backups/
+vault.ciphera

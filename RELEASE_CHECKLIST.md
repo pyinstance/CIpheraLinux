@@ -1,0 +1,24 @@
+# Release Checklist
+
+- [ ] `cargo fmt --all -- --check`
+- [ ] `cargo check`
+- [ ] `cargo test`
+- [ ] `cargo clippy --all-targets --all-features -- -D warnings`
+- [ ] Review `cargo tree`
+- [ ] Run a dependency vulnerability audit
+- [ ] Test new-vault creation
+- [ ] Test wrong master password
+- [ ] Test existing v1/v2 vault migration
+- [ ] Test keyfile enable, rotate, restart and disable
+- [ ] Test missing/wrong keyfile behavior
+- [ ] Test backup creation and restore
+- [ ] Test clipboard clearing on Wayland
+- [ ] Test XposedOrNot provider success/error paths
+- [ ] Test LeakCheck provider success/error paths
+- [ ] Test HIBP with no key / invalid key / test key
+- [ ] Verify no real secrets exist in repository history
+- [ ] Ensure `Cargo.lock` is committed
+- [ ] Update `CHANGELOG.md`
+- [ ] Tag release
+- [ ] Build release artifact on clean Arch/Linux environment
+- [ ] Publish checksums
